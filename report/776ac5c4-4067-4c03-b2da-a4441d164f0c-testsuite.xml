@@ -1,0 +1,62 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552963504836" stop="1552963504852">
+  <name>test02</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1552963504836" status="passed" stop="1552963504842">
+      <name>Test02.test03</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10840-MainThread"/>
+        <label name="host" value="LAPTOP-FHGALJQ0"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552963504841" status="passed" stop="1552963504842">
+          <name>新增地址方法</name>
+          <title>新增地址方法</title>
+          <attachments>
+            <attachment source="f8d9b7eb-5d1a-41cc-8e54-b71476b1c12e-attachment.txt" title="新增地址被执行" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1552963504845" status="passed" stop="1552963504846">
+      <name>Test02.test04</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="10840-MainThread"/>
+        <label name="host" value="LAPTOP-FHGALJQ0"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552963504846" status="passed" stop="1552963504846">
+          <name>更改地址方法</name>
+          <title>更改地址方法</title>
+          <attachments>
+            <attachment source="0becd10e-1794-48f5-a1fb-ba8893b1edd8-attachment.txt" title="更改地址被执行" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1552963504850" status="passed" stop="1552963504852">
+      <name>Test02.test05</name>
+      <attachments>
+        <attachment source="e9f63bb7-1f55-4edf-84c8-ed49f464809f-attachment.png" title="失败原因:" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="10840-MainThread"/>
+        <label name="host" value="LAPTOP-FHGALJQ0"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
